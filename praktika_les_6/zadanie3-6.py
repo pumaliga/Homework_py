@@ -7,21 +7,6 @@ XL = {"Russia": 52, "Germany": 46, "USA": 18, "France": 48, "Great Britain":34}
 XXL = {"Russia": 44, "Germany": 48, "USA": 20, "France": 50, "Great Britain": 36}
 XXXL = {"Russia": 46, "Germany": 50, "USA": 22, "France": 52, "Great Britain": 38}
 def prikid(value):
-	if value == XXS:
-		return XXS
-	elif value == XS:
-		return XS
-	elif value == S:
-		return S
-	elif value == M:
-		return M
-	elif value == L:
-		return L
-	elif value == XL:
-		return XL
-	elif value == XXL:
-		return XXL
-	elif value == XXXL:
-		return XXXL
+	return value.items()
 
-print(prikid(L))
+print(prikid())
